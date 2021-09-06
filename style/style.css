@@ -1,0 +1,71 @@
+.top-banner{
+	background-image: url(../images/banner.png);
+	background-position: center; 
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100vh;
+}
+.top-header button{
+	float: right;
+}
+button{
+	padding: 13px 30px;
+	background: #CBA051;
+	border: 0.5px solid #FFFFFF;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0.155em;
+	color: #FFFFFF
+}
+.top-header{
+	margin-top: 35px;
+}
+.top-header button{
+	margin-top: 53px;
+}
+h1{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 46px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 50px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: left;
+	color: #ffffff;
+	margin-top: 135px;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 41px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: left;
+}
+.top-banner p{
+	margin-top: 18px;
+	color: #FFFFFF;
+}
+.timer{
+	background: #FFFFFF;
+	border: 1px solid #AE8D50;
+	box-sizing: border-box;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.timer h4{
+	font-family: 'Cormorant Garamond', serif;
+font-size: 26px;
+font-style: normal;
+font-weight: 300;
+line-height: 41px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+}
