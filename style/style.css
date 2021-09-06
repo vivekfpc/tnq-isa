@@ -55,10 +55,12 @@ p{
 	background: #FFFFFF;
 	border: 1px solid #AE8D50;
 	box-sizing: border-box;
-	width: 80%;
+	width: 70%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 40px 0px;
+	margin-top: -71px;
 }
 .timer h4{
 	font-family: 'Cormorant Garamond', serif;
@@ -68,4 +70,221 @@ font-weight: 300;
 line-height: 41px;
 letter-spacing: 0.20000000298023224px;
 text-align: center;
+}
+/* timer */
+
+li {
+  display: inline-block;
+ font-family: 'Source Sans Pro', sans-serif;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+  text-transform: uppercase;
+  color: #CBA051;
+}
+
+li span {
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+font-size: 57px;
+font-style: normal;
+font-weight: 300;
+line-height: 31px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+list-style-type: none;
+  padding: 20px 33px;
+color: #CBA051;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+.vvs{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#countdown{
+	text-align: center;
+}
+hr{
+	border-top: 5px solid #CBA051;
+	margin: 0px;
+}
+.scroll-1{
+	margin-top: 202px;
+	margin-bottom: 182px;
+}
+.scroll-1 .right{
+	background-color: #CBA051;
+	padding: 20px;
+	margin-left: -103px;
+	display: inline-block;
+	margin-top: 47px;
+}
+.right .line{
+	border: 1px solid #FFFFFF;
+	padding: 30px 60px;
+}
+.right .line h2{
+	font-family: 'Cormorant Garamond', serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 53px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #ffffff;
+}
+
+.scroll-1 .side{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.history{
+	background-image: url(../images/history-banner.png);
+	background-position: center; 
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	padding-top: 163px;
+  	padding-bottom: 280px;
+}
+.history hr{
+	border: 1px solid #FFFFFF;
+	width: 27%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.history h4{
+	font-family: 'Cormorant Garamond', serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.4000000059604645px;
+text-align: center;
+color: #FFFFFF;
+padding: 19px 0px;
+}
+.history-btm{
+	border: 0.8px solid #CBA051;
+	padding:36px 120px 36px 40px;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -60px;
+	background-color: #FFFFFF;
+	margin-bottom: 78px;
+}
+.history-btm h3{
+	font-family: 'Cormorant Garamond', serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 43px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #373F41;
+}
+.history-btm p{
+	 font-family: 'Source Sans Pro', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #373F41;
+}
+.history-btm h2{
+	font-family: 'Cormorant Garamond', serif;
+font-size: 50px;
+font-style: normal;
+font-weight: 300;
+letter-spacing: 0.4px;
+color: #CBA051;
+}
+.history-btm h6{
+	font-family: 'Cormorant Garamond', serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+color: #040404;
+}
+.history-btm button{
+	margin-top: 45px;
+}
+.prize{
+	background-image: url(../images/prize-banner.png);
+	background-position: center; 
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	padding-top: 76px;
+  	padding-bottom: 113px;
+}
+.prize hr{
+	border: 1px solid #FFFFFF;
+	width: 10%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.prize h4{
+	font-family: 'Cormorant Garamond', serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.4000000059604645px;
+text-align: center;
+color: #FFFFFF;
+padding: 19px 0px;
+}
+.prize p{
+	font-family: 'Source Sans Pro', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 45px;
+}
+.eligibility{
+	margin-top: 78px;
+	margin-bottom: 95px;
+}
+.eligibility h4{
+	font-family: 'Cormorant Garamond', serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.4000000059604645px;
+text-align: center;
+padding: 19px 0px;
+color: #CBA051;
+}
+.eligibility hr{
+	border: 0.8px solid #CBA051;
+	width: 27%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
