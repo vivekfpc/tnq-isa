@@ -36,7 +36,7 @@ h1{
 	letter-spacing: 0.20000000298023224px;
 	text-align: left;
 	color: #ffffff;
-	margin-top: 135px;
+	margin-top: 80px;
 }
 p{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -60,7 +60,7 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 40px 0px;
-	margin-top: -71px;
+	margin-top: -150px;
 }
 .timer h4{
 	font-family: 'Cormorant Garamond', serif;
@@ -73,7 +73,7 @@ text-align: center;
 }
 /* timer */
 
-li {
+.timer li {
   display: inline-block;
  font-family: 'Source Sans Pro', sans-serif;
 font-size: 17px;
@@ -86,7 +86,7 @@ text-align: center;
   color: #CBA051;
 }
 
-li span {
+.timer li span {
   display: block;
   font-family: 'Source Sans Pro', sans-serif;
 font-size: 57px;
@@ -287,4 +287,77 @@ color: #CBA051;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+.eligibility li{
+	font-family: 'Source Sans Pro', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #3C3C3C;
+margin-bottom: 25px;
+margin-right: 110px;
+}
+.eligibility ul{
+	margin-top: 60px;
+	margin-bottom: 70px;
+}
+.eligibility button{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.winners{
+	background: linear-gradient(180deg, #3B2F58 0%, #0F0C16 100%);
+	padding-top: 55px;
+	padding-bottom: 95px;
+}
+.winners h4{
+	font-family: 'Cormorant Garamond', serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #CBA051;
+}
+.winners hr{
+	border: 0.5px solid #CBA051;
+	width: 35%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer-line{
+	border: 0.5px solid #FFFFFF;
+}
+.footer{
+	background: linear-gradient(180deg, #3B2F58 0%, #0F0C16 100%);
+	padding-top: 47px;
+	padding-bottom: 37px;
+}
+.footer h5{
+	font-family: 'Source Sans Pro', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #FFFFFF;
+}
+.footer ul li{
+	display: inline-block;
+	text-decoration: none;
+}
+.social-link li{
+	float: right;
+	padding-left: 18px;
+}
+.winner-person{
+	margin-top: 80px;
+	margin-bottom: 100px;
 }

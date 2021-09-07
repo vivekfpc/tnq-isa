@@ -109,9 +109,64 @@
 			<hr>
 			<h4>Eligibility for 2022</h4>
 			<hr>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<ul>
+						<li>The research paper must have been published online for the first time between 1st November 2019 and 30th September 2020.</li>
+						<li>The paper should have already been accepted and published online in a journal either as an accepted manuscript publication or a corrected proof publication.</li>
+						<li>Only full length research papers are eligible. Other article types such as Editorial, Review, etc. are not eligible.</li>
+						<li>The scientist must have been affiliated to a research institution or university based in India, where the research must have been conducted.</li>
+					</ul>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<ul>
+						<li>Papers with co-authors (Indian or international) are also eligible for consideration. However, the Award will be given only to the submitting author.</li>
+						<li>In cases where the paper has multiple authors, all other co-authors are required to submit a no-objection declaration to isa@tnq.co.in before the 30th of October 2020.</li>
+						<li>The paper must be uploaded as an attachment with your entry, supported by a proof of publication link. We do not accept entries as links to sites that are behind paywalls or firewalls.</li>
+					</ul>
+				</div>
+			</div>
+			<button>SUBMIT YOUR ENTRY</button>
 		</div>
 	</div>
-
+	<div class="winners">
+		<div class="container">
+			<hr>
+			<h4>Past winners of the <br>Inspiring Science Award</h4>
+			<hr>
+			<div class="row winner-person">
+				<div class="col-lg-4"><img src="images/winner.png" class="img-responsive" /></div>
+				<div class="col-lg-4"><img src="images/winner.png" class="img-responsive" /></div>
+				<div class="col-lg-4"><img src="images/winner.png" class="img-responsive" /></div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-4"><img src="images/winner.png" class="img-responsive" /></div>
+				<div class="col-lg-4"><img src="images/winner.png" class="img-responsive" /></div>
+				<div class="col-lg-2"></div>
+			</div>
+		</div>
+	</div>
+	<hr class="footer-line">
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<ul>
+						<li><img src="images/footer-logo.png" class="img-responsive" /></li>
+						<li><h5>The Inspiring Science Award is <br>Sponsored by TNQ Technologies</h5></li>
+					</ul>
+				</div>
+				<div class="col-lg-6 social-link">
+					<ul>
+						<li><img src="images/fb.png" class="img-responsive" /></li>
+						<li><img src="images/twit.png" class="img-responsive" /></li>
+						<li><img src="images/li.png" class="img-responsive" /></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
 <script id="rendered-js" >
 (function () {
