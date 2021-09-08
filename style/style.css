@@ -19,13 +19,24 @@ button{
 	font-weight: 400;
 	line-height: 19px;
 	letter-spacing: 0.155em;
-	color: #FFFFFF
+	color: #FFFFFF;
+	transition: 0.8s;
+}
+button:hover{
+	border: 0.5px solid #CBA051;
+	background-color: #FFFFFF;
+	color: #373F41;
+	transition: 0.8s;
+
 }
 .top-header{
 	margin-top: 35px;
 }
 .top-header button{
 	margin-top: 53px;
+}
+.top-header img{
+	width: 30%;
 }
 h1{
 	font-family: 'Cormorant Garamond', serif;
@@ -36,7 +47,7 @@ h1{
 	letter-spacing: 0.20000000298023224px;
 	text-align: left;
 	color: #ffffff;
-	margin-top: 80px;
+	margin-top: 100px;
 }
 p{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -60,7 +71,7 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 40px 0px;
-	margin-top: -150px;
+	margin-top: -65px;
 }
 .timer h4{
 	font-family: 'Cormorant Garamond', serif;
@@ -156,8 +167,8 @@ color: #ffffff;
 	background-position: center; 
   	background-repeat: no-repeat;
   	background-size: cover;
-  	padding-top: 163px;
-  	padding-bottom: 280px;
+  	padding-top: 120px;
+  	padding-bottom: 220px;
 }
 .history hr{
 	border: 1px solid #FFFFFF;
@@ -312,7 +323,6 @@ margin-right: 110px;
 .winners{
 	background: linear-gradient(180deg, #3B2F58 0%, #0F0C16 100%);
 	padding-top: 55px;
-	padding-bottom: 95px;
 }
 .winners h4{
 	font-family: 'Cormorant Garamond', serif;
@@ -322,6 +332,7 @@ font-weight: 400;
 line-height: 39px;
 letter-spacing: 0.20000000298023224px;
 text-align: center;
+padding: 19px 0px;
 color: #CBA051;
 }
 .winners hr{
@@ -332,13 +343,28 @@ color: #CBA051;
 	margin-right: auto;
 }
 .footer-line{
-	border: 0.5px solid #FFFFFF;
+	border: 0.5px solid #FFFFFF !important;
+	width: 100% !important;
 }
 .footer{
-	background: linear-gradient(180deg, #3B2F58 0%, #0F0C16 100%);
 	padding-top: 47px;
 	padding-bottom: 37px;
 }
+.footer .left ul li img{
+	float: left;
+	margin: 0 0 10px 0;
+    padding: 5px;
+    padding-right: 16px;
+}
+.footer .left ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer .left ul li {
+    line-height: 60px;
+    width: 100%;
+}   
 .footer h5{
 	font-family: 'Source Sans Pro', sans-serif;
 font-size: 12px;
@@ -358,6 +384,11 @@ color: #FFFFFF;
 	padding-left: 18px;
 }
 .winner-person{
-	margin-top: 80px;
 	margin-bottom: 100px;
+}
+.social-link ul{
+	margin-top: 10px;
+}
+.winner-hr{
+	margin-bottom: 80px;
 }

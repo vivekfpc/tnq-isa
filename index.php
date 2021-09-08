@@ -12,15 +12,16 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/responsive-style.css">
 </head>
 <body>
 	<div class="top-banner">
 		<div class="container">
 			<div class="row top-header">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-					<img src="images/logo.png"  class="img-responsive"/>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+					<img src="images/logo.svg"  class="img-responsive"/>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
 					<button>SUBMIT YOUR ENTRY</button>
 				</div>
 			</div>
@@ -51,10 +52,10 @@
 	<div class="scroll-1">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 side">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 side">
 					<img src="images/scroll-1.png" class="img-responsive" />
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 side">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 side">
 					<div class="right">
 						<div class="line">
 							<h2>The Inspiring Science Award<br> is for the best published<br> Life Sciences paper by a<br> student from India.</h2>
@@ -80,15 +81,15 @@
 			The idea for this award was brought forth to us by Professor Anuranjan Anand of JNCASR and we would like to express our thanks and appreciation to him for helping extend the impact of the lecture series in promoting young Indian scientists."
 			</p>
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 history-mobile">
 					<h2>5</h2>
 					<h6>Winners of the<br> Inspiring Science award</h6>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 history-mobile">
 					<h2>2500</h2>
 					<h6>Entries Since 2017</h6>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 history-mobile">
 					<h2>200</h2>
 					<h6>Research institutions<br> represented</h6>
 				</div>
@@ -101,7 +102,7 @@
 			<hr>
 			<h4>Prize</h4>
 			<hr>
-			<p>Eight papers are shortlisted by the jury for the top pick. All finalists receive a Mac laptop and<br> a citation. The winner receives the ISA medal, a citation, and a travel fellowship to a<br> conference of their choosing anywhere in the world. During the pandemic, and while travel<br> is restricted, the winner receives a cash award of INR 2,00,000.</p>
+			<p>Eight papers are shortlisted by the jury for the top pick. All finalists receive a Mac laptop and<br class="hidden-xs"> a citation. The winner receives the ISA medal, a citation, and a travel fellowship to a<br class="hidden-xs"> conference of their choosing anywhere in the world. During the pandemic, and while travel<br class="hidden-xs"> is restricted, the winner receives a cash award of INR 2,00,000.</p>
 		</div>
 	</div>
 	<div class="eligibility">
@@ -109,8 +110,8 @@
 			<hr>
 			<h4>Eligibility for 2022</h4>
 			<hr>
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="row list-mobile">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<ul>
 						<li>The research paper must have been published online for the first time between 1st November 2019 and 30th September 2020.</li>
 						<li>The paper should have already been accepted and published online in a journal either as an accepted manuscript publication or a corrected proof publication.</li>
@@ -118,7 +119,7 @@
 						<li>The scientist must have been affiliated to a research institution or university based in India, where the research must have been conducted.</li>
 					</ul>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<ul>
 						<li>Papers with co-authors (Indian or international) are also eligible for consideration. However, the Award will be given only to the submitting author.</li>
 						<li>In cases where the paper has multiple authors, all other co-authors are required to submit a no-objection declaration to isa@tnq.co.in before the 30th of October 2020.</li>
@@ -133,40 +134,40 @@
 		<div class="container">
 			<hr>
 			<h4>Past winners of the <br>Inspiring Science Award</h4>
-			<hr>
-			<div class="row winner-person">
-				<div class="col-lg-4"><img src="images/winner.png" class="img-responsive" /></div>
-				<div class="col-lg-4"><img src="images/winner.png" class="img-responsive" /></div>
-				<div class="col-lg-4"><img src="images/winner.png" class="img-responsive" /></div>
-			</div>
+			<hr class="winner-hr">
 			<div class="row">
-				<div class="col-lg-2"></div>
-				<div class="col-lg-4"><img src="images/winner.png" class="img-responsive" /></div>
-				<div class="col-lg-4"><img src="images/winner.png" class="img-responsive" /></div>
-				<div class="col-lg-2"></div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person"><img src="images/winner.png" class="img-responsive" /></div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person"><img src="images/winner.png" class="img-responsive" /></div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person"><img src="images/winner.png" class="img-responsive" /></div>
+			
+				<div class="col-lg-2 col-md-2 col-sm-2"></div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person"><img src="images/winner.png" class="img-responsive" /></div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person"><img src="images/winner.png" class="img-responsive" /></div>
+				<div class="col-lg-2 col-md-2 col-sm-2"></div>
 			</div>
 		</div>
-	</div>
-	<hr class="footer-line">
-	<div class="footer">
+		<hr class="footer-line">
+		<div class="footer">
+			
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 left">
 					<ul>
-						<li><img src="images/footer-logo.png" class="img-responsive" /></li>
-						<li><h5>The Inspiring Science Award is <br>Sponsored by TNQ Technologies</h5></li>
+						<li><img src="images/footer-logo.png" class="img-responsive" /><h5>The Inspiring Science Award is <br class="hidden-xs">Sponsored by TNQ Technologies</h5></li>
 					</ul>
 				</div>
-				<div class="col-lg-6 social-link">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 social-link">
 					<ul>
-						<li><img src="images/fb.png" class="img-responsive" /></li>
-						<li><img src="images/twit.png" class="img-responsive" /></li>
-						<li><img src="images/li.png" class="img-responsive" /></li>
+						<li><img src="images/fb.svg" class="img-responsive" /></li>
+						<li><img src="images/twit.svg" class="img-responsive" /></li>
+						<li><img src="images/ln.svg" class="img-responsive" /></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
+	</div>
+	
 
 <script id="rendered-js" >
 (function () {
