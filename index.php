@@ -23,10 +23,10 @@
 					<img src="images/logo.svg"  class="img-responsive"/>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs text-animate">
-					<button>SUBMIT YOUR ENTRY</button>
+					<a href="https://isauat.tnq.co.in/register.php"><button>SUBMIT YOUR ENTRY</button></a>
 				</div>
 				<div class="hidden-lg hidden-md hidden-sm navbar-fixed-bottom">
-					<button>SUBMIT YOUR ENTRY</button>
+					<a href="https://isauat.tnq.co.in/register.php"><button>SUBMIT YOUR ENTRY</button></a>
 				</div>
 			</div>
 			<h1 class="text-animate">The Inspiring Science Award 2022<br class="hidden-xs"> is open for entries and will close<br class="hidden-xs"> on the 15th of october 2021</h1>
@@ -131,7 +131,7 @@
 					</ul>
 				</div>
 			</div>
-			<button class="text-animate">SUBMIT YOUR ENTRY</button>
+			<a href="https://isauat.tnq.co.in/register.php"><button class="text-animate">SUBMIT YOUR ENTRY</button></a>
 		</div>
 	</div>
 	<div class="winners">
