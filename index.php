@@ -9,6 +9,7 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style/style.css">
@@ -18,20 +19,23 @@
 	<div class="top-banner">
 		<div class="container">
 			<div class="row top-header">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-animate">
 					<img src="images/logo.svg"  class="img-responsive"/>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
+				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs text-animate">
+					<button>SUBMIT YOUR ENTRY</button>
+				</div>
+				<div class="hidden-lg hidden-md hidden-sm navbar-fixed-bottom">
 					<button>SUBMIT YOUR ENTRY</button>
 				</div>
 			</div>
-			<h1>The Inspiring Science Award 2022<br> is open for entries and will close<br> on the 15th of october 2021</h1>
-			<p>500 entries received</p>
-			<button>VIEW ELIGIBILITY CRITERIA</button>
+			<h1 class="text-animate">The Inspiring Science Award 2022<br class="hidden-xs"> is open for entries and will close<br class="hidden-xs"> on the 15th of october 2021</h1>
+			<p class="text-animate">500 entries received</p>
+			<button id="button" class="text-animate">VIEW ELIGIBILITY CRITERIA</button>
 		</div>
 	</div>
 	<hr>
-	<div class="container">
+	<div class="container text-animate">
 		<div class="timer">
 			<h4>Time Left for Submission</h4>
   				<div id="countdown">
@@ -53,12 +57,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 side">
-					<img src="images/scroll-1.png" class="img-responsive" />
+					<img src="images/scroll-1.png" class="img-responsive text-animate" />
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 side">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 side text-animate">
 					<div class="right">
-						<div class="line">
-							<h2>The Inspiring Science Award<br> is for the best published<br> Life Sciences paper by a<br> student from India.</h2>
+						<div class="line text-animate">
+							<h2>The Inspiring Science Award<br class="hidden-xs"> is for the best published<br class="hidden-xs"> Life Sciences paper by a<br class="hidden-xs"> student from India.</h2>
 						</div>
 					</div>
 				</div>
@@ -67,84 +71,85 @@
 	</div>
 	<div class="history">
 		<div class="container">
-			<hr>
-			<h4>History & Purpose</h4>
-			<hr>
+			<hr class="text-animate">
+			<h4 class="text-animate">History & Purpose</h4>
+			<hr class="text-animate">
 		</div>
 	</div>
 	<hr>
 	<div class="container">
 		<div class="history-btm">
-			<h3>The jury and the sponsors aim to recognise and reward quality science, inspire scholarship, and support researchers to pursue their passion in the Life Sciences by selecting the best published scientific paper in the Life Sciences from India each year.</h3>
-			<p>The Inspiring Science Award was announced in January 2016, at The TNQ Distinguished Lectures in the Life Sciences in Bengaluru.  At the launch of the award by Dr Emilie Marcus, ex CEO, Cell Press, and Editor-in-Chief said “Building on the successful tradition of the lectureship in inspiring students to pursue their passion with careers in scientific research, we are creating The Inspiring Science Award in association with the lectures. <br><br>
+			<h3 class="text-animate">The jury and the sponsors aim to recognise and reward quality science, inspire scholarship, and support researchers to pursue their passion in the Life Sciences by selecting the best published scientific paper in the Life Sciences from India each year.</h3>
+			<p class="text-animate">The Inspiring Science Award was announced in January 2016, at The TNQ Distinguished Lectures in the Life Sciences in Bengaluru.  At the launch of the award by Dr Emilie Marcus, ex CEO, Cell Press, and Editor-in-Chief said “Building on the successful tradition of the lectureship in inspiring students to pursue their passion with careers in scientific research, we are creating The Inspiring Science Award in association with the lectures. <br><br>
 
 			The idea for this award was brought forth to us by Professor Anuranjan Anand of JNCASR and we would like to express our thanks and appreciation to him for helping extend the impact of the lecture series in promoting young Indian scientists."
 			</p>
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 history-mobile">
-					<h2>5</h2>
-					<h6>Winners of the<br> Inspiring Science award</h6>
+					<h2 class="text-animate">5</h2>
+					<h6 class="text-animate">Winners of the<br class="hidden-xs"> Inspiring Science award</h6>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 history-mobile">
-					<h2>2500</h2>
-					<h6>Entries Since 2017</h6>
+					<h2 class="text-animate">2500</h2>
+					<h6 class="text-animate">Entries Since 2017</h6>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 history-mobile">
-					<h2>200</h2>
-					<h6>Research institutions<br> represented</h6>
+					<h2 class="text-animate">200</h2>
+					<h6 class="text-animate">Research institutions<br class="hidden-xs"> represented</h6>
 				</div>
 			</div>
-			<button>VIEW ELIGIBILITY CRITERIA</button>
+			<button id="button-1" class="text-animate">VIEW ELIGIBILITY CRITERIA</button>
 		</div>
 	</div>
 	<div class="prize">
 		<div class="container">
-			<hr>
-			<h4>Prize</h4>
-			<hr>
-			<p>Eight papers are shortlisted by the jury for the top pick. All finalists receive a Mac laptop and<br class="hidden-xs"> a citation. The winner receives the ISA medal, a citation, and a travel fellowship to a<br class="hidden-xs"> conference of their choosing anywhere in the world. During the pandemic, and while travel<br class="hidden-xs"> is restricted, the winner receives a cash award of INR 2,00,000.</p>
+			<hr class="text-animate">
+			<h4 class="text-animate">Prize</h4>
+			<hr class="text-animate">
+			<p class="text-animate">Eight papers are shortlisted by the jury for the top pick. All finalists receive a Mac laptop and<br class="hidden-xs"> a citation. The winner receives the ISA medal, a citation, and a travel fellowship to a<br class="hidden-xs"> conference of their choosing anywhere in the world. During the pandemic, and while travel<br class="hidden-xs"> is restricted, the winner receives a cash award of INR 2,00,000.</p>
 		</div>
 	</div>
-	<div class="eligibility">
+	<div class="eligibility" id="myDiv">
 		<div class="container">
-			<hr>
-			<h4>Eligibility for 2022</h4>
-			<hr>
+			<hr class="text-animate">
+			<h4 class="text-animate">Eligibility for 2022</h4>
+			<hr class="text-animate">
 			<div class="row list-mobile">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<ul>
-						<li>The research paper must have been published online for the first time between 1st November 2019 and 30th September 2020.</li>
-						<li>The paper should have already been accepted and published online in a journal either as an accepted manuscript publication or a corrected proof publication.</li>
-						<li>Only full length research papers are eligible. Other article types such as Editorial, Review, etc. are not eligible.</li>
-						<li>The scientist must have been affiliated to a research institution or university based in India, where the research must have been conducted.</li>
+						<li class="text-animate">The research paper must have been published online for the first time between 1st November 2019 and 30th September 2020.</li>
+						<li class="text-animate">The paper should have already been accepted and published online in a journal either as an accepted manuscript publication or a corrected proof publication.</li>
+						<li class="text-animate">Only full length research papers are eligible. Other article types such as Editorial, Review, etc. are not eligible.</li>
+						<li class="text-animate">The scientist must have been affiliated to a research institution or university based in India, where the research must have been conducted.</li>
 					</ul>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<ul>
-						<li>Papers with co-authors (Indian or international) are also eligible for consideration. However, the Award will be given only to the submitting author.</li>
-						<li>In cases where the paper has multiple authors, all other co-authors are required to submit a no-objection declaration to isa@tnq.co.in before the 30th of October 2020.</li>
-						<li>The paper must be uploaded as an attachment with your entry, supported by a proof of publication link. We do not accept entries as links to sites that are behind paywalls or firewalls.</li>
+						<li class="text-animate">Papers with co-authors (Indian or international) are also eligible for consideration. However, the Award will be given only to the submitting author.</li>
+						<li class="text-animate">In cases where the paper has multiple authors, all other co-authors are required to submit a no-objection declaration to isa@tnq.co.in before the 30th of October 2020.</li>
+						<li class="text-animate">The paper must be uploaded as an attachment with your entry, supported by a proof of publication link. We do not accept entries as links to sites that are behind paywalls or firewalls.</li>
 					</ul>
 				</div>
 			</div>
-			<button>SUBMIT YOUR ENTRY</button>
+			<button class="text-animate">SUBMIT YOUR ENTRY</button>
 		</div>
 	</div>
 	<div class="winners">
 		<div class="container">
-			<hr>
-			<h4>Past winners of the <br>Inspiring Science Award</h4>
-			<hr class="winner-hr">
+			<hr class="text-animate">
+			<h4 class="text-animate">Past winners of the <br>Inspiring Science Award</h4>
+			<hr class="winner-hr text-animate">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person"><img src="images/winner.png" class="img-responsive" /></div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person"><img src="images/winner.png" class="img-responsive" /></div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person"><img src="images/winner.png" class="img-responsive" /></div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person text-animate"><img src="images/winner-1.png" class="img-responsive" /></div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person text-animate"><img src="images/winner-2.png" class="img-responsive" /></div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person text-animate"><img src="images/winner-3.png" class="img-responsive" /></div>
 			
 				<div class="col-lg-2 col-md-2 col-sm-2"></div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person"><img src="images/winner.png" class="img-responsive" /></div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person"><img src="images/winner.png" class="img-responsive" /></div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 winner-person-2 text-animate"><img src="images/winner-4.png" class="img-responsive" /></div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-animate"><img src="images/winner-5.png" class="img-responsive" /></div>
 				<div class="col-lg-2 col-md-2 col-sm-2"></div>
 			</div>
+			<h3 class="text-animate">"If you have questions, or are having trouble submitting your paper, please write to us: <a href="mailto:isa@tnq.co.in?subject=Enquiry">isa@tnq.co.in</a>"</h3>
 		</div>
 		<hr class="footer-line">
 		<div class="footer">
@@ -153,14 +158,14 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 left">
 					<ul>
-						<li><img src="images/footer-logo.png" class="img-responsive" /><h5>The Inspiring Science Award is <br class="hidden-xs">Sponsored by TNQ Technologies</h5></li>
+						<li><img src="images/footer-logo.png" class="img-responsive text-animate-1" /><h5 class="text-animate-1">The Inspiring Science Award is <br class="hidden-xs">Sponsored by TNQ Technologies</h5></li>
 					</ul>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 social-link">
 					<ul>
-						<li><img src="images/fb.svg" class="img-responsive" /></li>
-						<li><img src="images/twit.svg" class="img-responsive" /></li>
-						<li><img src="images/ln.svg" class="img-responsive" /></li>
+						<li><img src="images/fb.svg" class="img-responsive text-animate-1" /></li>
+						<li><img src="images/twit.svg" class="img-responsive text-animate-1" /></li>
+						<li><img src="images/ln.svg" class="img-responsive text-animate-1" /></li>
 					</ul>
 				</div>
 			</div>
@@ -168,7 +173,83 @@
 	</div>
 	</div>
 	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script>
 
+( function() { 
+
+  // wait until all required libraries are available
+  let chck_if_gsap_loaded = setInterval( function() {
+    
+    if( window.gsap && window.ScrollTrigger ) {
+      
+      // register scrolTrigger
+      gsap.registerPlugin( ScrollTrigger );
+
+      // ... do your thing
+      my_stuff();
+
+      // clear interval
+      clearInterval( chck_if_gsap_loaded ); 
+      
+    }
+    
+  }, 500 );
+  
+  function my_stuff() {
+		
+    
+	  
+	 
+	  ScrollTrigger.batch(".text-animate", {
+        onEnter: batch => {
+            gsap.from(batch, {
+                duration: 1,
+                y: 40,
+                scale: 1,
+                autoAlpha: 0,
+                ease: "Power2.easeOut",
+                stagger: 0.2,
+                visibility: "visible",
+            })
+        },
+        toggleActions: "play none none none",
+        once: true,
+        start: 'top 80%',
+        end: 'top 40%',
+        markers: false,
+
+
+    });
+	  ScrollTrigger.batch(".text-animate-1", {
+        onEnter: batch => {
+            gsap.from(batch, {
+                duration: 1,
+                y: 40,
+                scale: 1,
+                autoAlpha: 0,
+                ease: "Power2.easeOut",
+                stagger: 0.2,
+                visibility: "visible",
+            })
+        },
+        toggleActions: "play none none none",
+        once: true,
+        start: 'top 100%',
+        end: 'top 40%',
+        markers: false,
+
+
+    });
+	  
+	
+	  //End of My Stuff - Place code above here.
+  }
+  
+} )();
+</script>
 <script id="rendered-js" >
 (function () {
   const second = 1000,
@@ -204,6 +285,13 @@
   }, 0);
 })();
 //# sourceURL=pen.js
+    </script>
+    <script>
+    	$("#button, #button-1").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#myDiv").offset().top
+    }, 2000);
+});
     </script>
 
 

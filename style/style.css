@@ -392,3 +392,26 @@ color: #FFFFFF;
 .winner-hr{
 	margin-bottom: 80px;
 }
+.winners h3{
+	font-family: 'Cormorant Garamond', serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+margin-top: 44px;
+margin-bottom: 22px;
+}
+a, a:hover, a:active, a:visited, a:focus{
+	color: #FFFFFF;
+}
+.text-animate{
+		visibility: hidden;
+		
+}
+.text-animate-1{
+		visibility: hidden;
+		
+}

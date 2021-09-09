@@ -47,6 +47,18 @@
     margin-bottom: 25px;
     margin-right: 10px;
 }
+.winners h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 44px;
+    margin-bottom: 22px;
+}
 }
 @media screen and (max-width: 991px){
 	.top-header img {
@@ -322,6 +334,18 @@ p {
     text-align: left;
     color: #FFFFFF;
 }
+.winners h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 44px;
+    margin-bottom: 22px;
+}
 }
 @media screen and (max-width: 768px){
 	h1 {
@@ -430,14 +454,17 @@ p {
 }
 @media screen and (max-width: 425px){
 	.top-header img {
-    width: 90%;
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 24px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 300;
-    line-height: 36px;
+    line-height: 50px;
     letter-spacing: 0.20000000298023224px;
     text-align: left;
     color: #ffffff;
@@ -466,7 +493,7 @@ h1 {
     letter-spacing: 0.20000000298023224px;
     text-align: center;
     list-style-type: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     color: #CBA051;
 }
 .timer {
@@ -478,7 +505,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     padding: 40px 0px;
-    margin-top: -280px;
+    margin-top: -110px;
 }
 #countdown {
     text-align: center;
@@ -495,14 +522,14 @@ h1 {
 }
 .right .line {
     border: 1px solid #FFFFFF;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 20px 10px 16px;
 }
 .right .line h2 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 300;
-    line-height: 34px;
+    line-height: 45px;
     letter-spacing: 0.20000000298023224px;
     text-align: left;
     color: #ffffff;
@@ -597,7 +624,7 @@ h1 {
     float: left;
     margin: 0 0 10px 0;
     padding: 5px;
-    width: 50%;
+    width: 40%;
     padding-right: 16px;
 }
 .social-link ul {
@@ -607,6 +634,18 @@ h1 {
 .social-link img{
 	width: 100%;
 }
+.winner-person-2{
+	margin-bottom: 60px;
+}
+.top-header button {
+    width: 100%;
+    padding: 15px;
+}
+.footer {
+    padding-top: 29px;
+    padding-bottom: 60px;
+}
+
 }
 @media screen and (max-width: 375px){
 	.timer {
