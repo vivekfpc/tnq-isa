@@ -133,7 +133,8 @@
 					</ul>
 				</div>
 			</div>
-			<a href="https://isauat.tnq.co.in/register.php"><button class="text-animate">SUBMIT YOUR ENTRY</button></a>
+			<a href="https://isauat.tnq.co.in/register.php">
+			<button class="text-animate">SUBMIT YOUR ENTRY</button></a>
 		</div>
 	</div>
 	<div class="winners">
