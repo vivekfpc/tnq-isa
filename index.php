@@ -31,7 +31,8 @@
 			</div>
 			<h1 class="text-animate">The Inspiring Science Award 2022<br class="hidden-xs"> is open for entries and will close<br class="hidden-xs"> on the 15th of october 2021</h1>
 			<p class="text-animate">500 entries received</p>
-			<button id="button" class="text-animate">VIEW ELIGIBILITY CRITERIA</button>
+			<div class="text-animate">
+			<button id="button">VIEW ELIGIBILITY CRITERIA</button></div>
 		</div>
 	</div>
 	<hr>
@@ -98,7 +99,8 @@
 					<h6 class="text-animate">Research institutions<br class="hidden-xs"> represented</h6>
 				</div>
 			</div>
-			<button id="button-1" class="text-animate">VIEW ELIGIBILITY CRITERIA</button>
+			<div class="text-animate">
+			<button id="button-1">VIEW ELIGIBILITY CRITERIA</button></div>
 		</div>
 	</div>
 	<div class="prize">
