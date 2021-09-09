@@ -161,13 +161,12 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 left">
 					<ul>
-						<li><img src="images/footer-logo.png" class="img-responsive text-animate-1" /><h5 class="text-animate-1">The Inspiring Science Award is <br class="hidden-xs">Sponsored by TNQ Technologies</h5></li>
+						<li><a href="https://www.tnq.co.in/" target="_blank"><img src="images/footer-logo.png" class="img-responsive text-animate-1" /><h5 class="text-animate-1">The Inspiring Science Award is <br class="hidden-xs">Sponsored by TNQ Technologies</h5></a></li>
 					</ul>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 social-link">
 					<ul>
 						<li><a href="https://www.facebook.com/TheInspiringScienceAwards" target="_blank"><img src="images/fb.svg" class="img-responsive text-animate-1" /></a></li>
-						<li><a href="https://twitter.com/TNQtechnologies" target="_blank"><img src="images/twit.svg" class="img-responsive text-animate-1" /></a></li>
 						<li><a href="https://www.instagram.com/tnqdistinguishedlectures/" target="_blank"><img src="images/ln.svg" class="img-responsive text-animate-1" /></a></li>
 					</ul>
 				</div>
