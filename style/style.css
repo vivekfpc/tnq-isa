@@ -415,7 +415,20 @@ a, a:hover, a:active, a:visited, a:focus{
 		visibility: hidden;
 		
 }
-.text-animate-2{
-		opacity: 1;
-		
+.timer ul li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+.winner-1{
+    width: 99%;
 }
