@@ -12,8 +12,9 @@
     <link rel="icon" href="images/fav-icon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Poppins:wght@300&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="style/responsive-style.css">
 </head>
@@ -31,7 +32,8 @@
 					<a href="https://isauat.tnq.co.in/register.php"><button>SUBMIT YOUR ENTRY</button></a>
 				</div>
 			</div>
-			<h1 class="text-animate">The Inspiring Science Award 2022<br class="hidden-xs"> is open for entries and will close<br class="hidden-xs"> on the 15th of october 2021</h1>
+			<h1 class="text-animate">The Inspiring Science Award 2022</h1>
+			<h5 class="text-animate">is open for entries and will close on the 15th of october 2021</h5>
 			<p class="text-animate">500 entries received</p>
 			<div class="text-animate">
 			<button id="button">VIEW ELIGIBILITY CRITERIA</button></div>
@@ -40,7 +42,7 @@
 	<hr>
 	<div class="container text-animate">
 		<div class="timer">
-			<h4 id="headline">Time left for submission</h4>
+			<h4 id="headline">Entries close in</h4>
   				<div id="countdown">
    					<ul>
       					<li><span id="days"></span>days</li>

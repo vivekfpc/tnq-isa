@@ -90,7 +90,7 @@ button {
 }
 h1 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 38px;
+    font-size: 46px;
     font-style: normal;
     font-weight: 300;
     line-height: 46px;
@@ -353,11 +353,21 @@ p {
     margin-top: 44px;
     margin-bottom: 22px;
 }
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 42px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #FFFFFF;
+}
 }
 @media screen and (max-width: 768px){
 	h1 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 33px;
+    font-size: 42px;
     font-style: normal;
     font-weight: 300;
     line-height: 40px;
@@ -365,6 +375,16 @@ p {
     text-align: left;
     color: #ffffff;
     margin-top: 100px;
+}
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 42px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #FFFFFF;
 }
 .scroll-1 .side {
     padding-left: 15px;
@@ -465,7 +485,7 @@ p {
 }
 h1 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 36px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 300;
     line-height: 50px;
@@ -474,7 +494,16 @@ h1 {
     color: #ffffff;
     margin-top: 70px;
 }
-
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #FFFFFF;
+}
 .timer li {
     display: inline-block;
     font-family: 'Source Sans Pro', sans-serif;
@@ -749,7 +778,7 @@ h1 {
 }
 h1 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 21px;
+    font-size: 33px;
     font-style: normal;
     font-weight: 300;
     line-height: 36px;
@@ -757,6 +786,16 @@ h1 {
     text-align: left;
     color: #ffffff;
     margin-top: 70px;
+}
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #FFFFFF;
 }
 .timer h4 {
     font-family: 'Cormorant Garamond', serif;
