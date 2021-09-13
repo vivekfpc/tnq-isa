@@ -94,7 +94,7 @@
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 history-mobile">
 					<h2 class="text-animate">1000+</h2>
-					<h6 class="text-animate">Entries Since 2017</h6>
+					<h6 class="text-animate">Entries since 2017</h6>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 history-mobile">
 					<h2 class="text-animate">300+</h2>

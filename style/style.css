@@ -112,7 +112,7 @@ text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
 font-size: 57px;
 font-style: normal;
-font-weight: 300;
+font-weight: 500;
 line-height: 31px;
 letter-spacing: 0.20000000298023224px;
 text-align: center;
@@ -137,6 +137,7 @@ color: #CBA051;
 }
 #countdown{
 	text-align: center;
+    margin-left: -40px;
 }
 hr{
 	border-top: 5px solid #CBA051;
