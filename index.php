@@ -68,7 +68,7 @@
 
 			<h1 class="text-animate">The Inspiring Science Award 2022</h1>
 
-			<h5 class="text-animate">is open for entries and will close at midnight, on October 15th, 2021</h5>
+			<h5 class="text-animate">is open for entries and will close at midnight, on the 15th of October 2021</h5>
 
 			<p class="text-animate">500 entries received</p>
 
@@ -168,7 +168,7 @@
 
 			<h3 class="text-animate">The Inspiring Science Award aims to recognise and reward quality science, inspire scholarship, and support researchers to pursue their passion in the Life Sciences by selecting the best published paper in the Life Sciences by a student from India each year.</h3>
 
-			<p class="text-animate">The Award was announced in January 2016, at The TNQ Distinguished in the Life Sciences in Bengaluru. At the launch, Dr Emilie Marcus, ex-CEO and Editor-in-Chief, Cell Press, said, “Building on the successful tradition of the lectureship in inspiring students to pursue their passion with careers in scientific research, we are creating The Inspiring Science Award in association with the lectures.<br><br>
+			<p class="text-animate">The Award was announced in January 2016, at The TNQ Distinguished Lectures in the Life Sciences in Bengaluru. At the launch, Dr Emilie Marcus, ex-CEO and Editor-in-Chief, Cell Press, said, “Building on the successful tradition of the lectureship in inspiring students to pursue their passion with careers in scientific research, we are creating The Inspiring Science Award in association with the lectures.<br><br>
 
 
 
@@ -337,7 +337,7 @@
 					</ul>
 
 				</div>
-				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-6 left"><h5 class="text-animate-1">The Inspiring Science Award is <br class="hidden-xs">sponsored by TNQ Technologies</h5></div>
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-6 left"><h5 class="text-animate-1">The Inspiring Science Award is <br>sponsored by TNQ Technologies</h5></div>
 
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 social-link">
 
