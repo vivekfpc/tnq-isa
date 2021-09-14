@@ -243,7 +243,7 @@
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
 					<ul>
-						<li class="text-animate">The Award is open to scientists who are registered for a PhD, all the way up to scientists in the 4th year of their post-doctorate degrees.</li>
+						<li class="text-animate">The Award is open to scientists who are registered for a PhD, up to scientists in the 4th year of their post-doctorate degrees.</li>
 
 						<li class="text-animate">The research paper must have been published online for the first time between 1st October 2020 and 30th September 2021.</li>
 
