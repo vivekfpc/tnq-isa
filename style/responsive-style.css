@@ -990,6 +990,15 @@ h5 {
 .scroll-1 img{
     width: 100%;
 }
+.history-btm h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.4000000059604645px;
+    margin-bottom: 13px;
+    color: #CBA051;
+}
 .scroll-1 .right {
     background-color: #CBA051;
     padding: 16px;
