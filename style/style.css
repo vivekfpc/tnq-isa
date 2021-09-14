@@ -1,445 +1,881 @@
 .top-banner{
+
 	background-image: url(../images/banner.png);
+
 	background-position: center; 
+
   	background-repeat: no-repeat;
+
   	background-size: cover;
+
   	height: 780px;
+
 }
+
 .top-header button{
+
 	float: right;
+
 }
+
 button{
+
 	padding: 13px 30px;
+
 	background: #CBA051;
+
 	border: 0.5px solid #FFFFFF;
+
 	box-sizing: border-box;
+
 	font-family: 'Source Sans Pro', sans-serif;
+
 	font-size: 14px;
+
 	font-style: normal;
+
 	font-weight: 400;
+
 	line-height: 19px;
+
 	letter-spacing: 0.155em;
+
 	color: #FFFFFF;
-	transition: 0.8s;
-}
-button:hover{
-	border: 0.5px solid #CBA051;
-	background-color: #FFFFFF;
-	color: #373F41;
+
 	transition: 0.8s;
 
 }
+
+button:hover{
+
+	border: 0.5px solid #CBA051;
+
+	background-color: #FFFFFF;
+
+	color: #373F41;
+
+	transition: 0.8s;
+
+
+
+}
+
 .top-header{
+
 	margin-top: 35px;
+
 }
+
 .top-header button{
+
 	margin-top: 53px;
+
 }
+
 .top-header img{
+
 	width: 30%;
+
 }
+
 h1{
+
 	font-family: 'Cormorant Garamond', serif;
+
 	font-size: 54px;
+
 	font-style: normal;
+
 	font-weight: 400;
+
 	line-height: 41.5px;
+
 	letter-spacing: 0.20000000298023224px;
+
 	text-align: left;
+
 	color: #ffffff;
+
 	margin-top: 100px;
+
 }
+
 h5{
+
 	font-family: 'Poppins', sans-serif;
+
 font-size: 21px;
+
 font-style: normal;
+
 font-weight: 300;
+
 line-height: 42px;
+
 letter-spacing: 0.20000000298023224px;
+
 text-align: left;
+
 color: #FFFFFF;
+
 }
+
 p{
+
 	font-family: 'Source Sans Pro', sans-serif;
+
 	font-size: 16px;
+
 	font-style: normal;
+
 	font-weight: 400;
+
 	line-height: 41px;
+
 	letter-spacing: 0.20000000298023224px;
+
 	text-align: left;
+
 }
+
 .top-banner p{
+
 	margin-top: 18px;
+
 	color: #FFFFFF;
+
 }
+
 .timer{
+
 	background: #FFFFFF;
+
 	border: 1px solid #AE8D50;
+
 	box-sizing: border-box;
+
 	width: 70%;
+
 	display: block;
+
 	margin-left: auto;
+
 	margin-right: auto;
+
 	padding: 40px 0px;
+
 	margin-top: -65px;
+
 }
+
 .timer h4{
+
 	font-family: 'Cormorant Garamond', serif;
+
 font-size: 26px;
+
 font-style: normal;
+
 font-weight: 300;
+
 line-height: 41px;
+
 letter-spacing: 0.20000000298023224px;
+
 text-align: center;
+
 }
+
 /* timer */
 
+
+
 .timer li {
+
   display: inline-block;
+
  font-family: 'Source Sans Pro', sans-serif;
+
 font-size: 17px;
+
 font-style: normal;
+
 font-weight: 400;
+
 line-height: 31px;
+
 letter-spacing: 0.20000000298023224px;
+
 text-align: center;
+
   text-transform: uppercase;
+
   color: #CBA051;
+
 }
+
+
 
 .timer li span {
+
   display: block;
+
   font-family: 'Source Sans Pro', sans-serif;
+
 font-size: 57px;
+
 font-style: normal;
+
 font-weight: 500;
+
 line-height: 31px;
+
 letter-spacing: 0.20000000298023224px;
+
 text-align: center;
+
 list-style-type: none;
+
   padding: 20px 33px;
+
 color: #CBA051;
+
 }
+
+
 
 .emoji {
+
   display: none;
+
   padding: 1rem;
+
 }
 
+
+
 .emoji span {
+
   font-size: 4rem;
+
   padding: 0 .5rem;
+
 }
+
 .vvs{
+
 	display: block;
+
 	margin-left: auto;
+
 	margin-right: auto;
+
 }
+
 #countdown{
+
 	text-align: center;
+
     margin-left: -40px;
+
 }
+
 hr{
+
 	border-top: 5px solid #CBA051;
+
 	margin: 0px;
+
 }
+
 .scroll-1{
+
 	margin-top: 202px;
+
 	margin-bottom: 182px;
+
 }
+
 .scroll-1 .right{
+
 	background-color: #CBA051;
+
 	padding: 20px;
+
 	margin-left: -103px;
+
 	display: inline-block;
+
 	margin-top: 47px;
+
 }
+
 .right .line{
+
 	border: 1px solid #FFFFFF;
+
 	padding: 30px 60px;
+
 }
+
 .right .line h2{
+
 	font-family: 'Cormorant Garamond', serif;
+
 font-size: 40px;
+
 font-style: normal;
+
 font-weight: 300;
+
 line-height: 53px;
+
 letter-spacing: 0.20000000298023224px;
+
 text-align: left;
+
 color: #ffffff;
+
 }
+
+
 
 .scroll-1 .side{
+
 	padding-left: 0px;
+
 	padding-right: 0px;
+
 }
+
 .history{
+
 	background-image: url(../images/history-banner.png);
+
 	background-position: center; 
+
   	background-repeat: no-repeat;
+
   	background-size: cover;
+
   	padding-top: 120px;
+
   	padding-bottom: 220px;
+
 }
+
 .history hr{
+
 	border: 1px solid #FFFFFF;
+
 	width: 27%;
+
 	display: block;
+
 	margin-left: auto;
+
 	margin-right: auto;
+
 }
+
 .history h4{
+
 	font-family: 'Cormorant Garamond', serif;
+
 font-size: 35px;
+
 font-style: normal;
+
 font-weight: 400;
+
 line-height: 18px;
+
 letter-spacing: 0.4000000059604645px;
+
 text-align: center;
+
 color: #FFFFFF;
+
 padding: 19px 0px;
+
 }
+
 .history-btm{
+
 	border: 0.8px solid #CBA051;
+
 	padding:36px 120px 36px 40px;
+
 	width: 80%;
+
 	display: block;
+
 	margin-left: auto;
+
 	margin-right: auto;
+
 	margin-top: -60px;
+
 	background-color: #FFFFFF;
+
 	margin-bottom: 78px;
+
 }
+
 .history-btm h3{
+
 	font-family: 'Cormorant Garamond', serif;
+
 font-size: 25px;
+
 font-style: normal;
+
 font-weight: 400;
+
 line-height: 43px;
+
 letter-spacing: 0.20000000298023224px;
+
 text-align: left;
+
 color: #373F41;
+
 }
+
 .history-btm p{
+
 	 font-family: 'Source Sans Pro', sans-serif;
+
 font-size: 16px;
+
 font-style: normal;
+
 font-weight: 400;
+
 line-height: 31px;
+
 letter-spacing: 0.20000000298023224px;
+
 text-align: left;
+
 color: #373F41;
+
 }
+
 .history-btm h2{
-	font-family: 'Cormorant Garamond', serif;
+
+	font-family: 'Source Sans Pro', sans-serif;
+
 font-size: 50px;
 font-style: normal;
-font-weight: 300;
-letter-spacing: 0.4px;
+font-weight: 400;
+letter-spacing: 0.4000000059604645px;
+margin-bottom: 15px;
+
 color: #CBA051;
+
 }
+
 .history-btm h6{
+
 	font-family: 'Cormorant Garamond', serif;
+
 font-size: 18px;
+
 font-style: normal;
+
 font-weight: 400;
+
 line-height: 21px;
+
 letter-spacing: 0.4000000059604645px;
+
 text-align: left;
+
 color: #040404;
+
 }
+
 .history-btm button{
+
 	margin-top: 45px;
+
 }
+
 .prize{
+
 	background-image: url(../images/prize-banner.png);
+
 	background-position: center; 
+
   	background-repeat: no-repeat;
+
   	background-size: cover;
+
   	padding-top: 76px;
+
   	padding-bottom: 113px;
+
 }
+
 .prize hr{
+
 	border: 1px solid #FFFFFF;
+
 	width: 10%;
+
 	display: block;
+
 	margin-left: auto;
+
 	margin-right: auto;
+
 }
+
 .prize h4{
+
 	font-family: 'Cormorant Garamond', serif;
+
 font-size: 35px;
+
 font-style: normal;
+
 font-weight: 400;
+
 line-height: 18px;
+
 letter-spacing: 0.4000000059604645px;
+
 text-align: center;
+
 color: #FFFFFF;
+
 padding: 19px 0px;
+
 }
+
 .prize p{
+
 	font-family: 'Source Sans Pro', sans-serif;
+
 font-size: 18px;
+
 font-style: normal;
+
 font-weight: 400;
+
 line-height: 32px;
+
 letter-spacing: 0.20000000298023224px;
+
 text-align: center;
+
 color: #FFFFFF;
+
 margin-top: 45px;
+
 }
+
 .eligibility{
+
 	margin-top: 78px;
+
 	margin-bottom: 95px;
+
 }
+
 .eligibility h4{
+
 	font-family: 'Cormorant Garamond', serif;
+
 font-size: 35px;
+
 font-style: normal;
+
 font-weight: 400;
+
 line-height: 18px;
+
 letter-spacing: 0.4000000059604645px;
+
 text-align: center;
+
 padding: 19px 0px;
+
 color: #CBA051;
+
 }
+
 .eligibility hr{
+
 	border: 0.8px solid #CBA051;
+
 	width: 27%;
+
 	display: block;
+
 	margin-left: auto;
+
 	margin-right: auto;
+
 }
+
 .eligibility li{
+
 	font-family: 'Source Sans Pro', sans-serif;
+
 font-size: 16px;
+
 font-style: normal;
+
 font-weight: 400;
+
 line-height: 28px;
+
 letter-spacing: 0.20000000298023224px;
+
 text-align: left;
+
 color: #3C3C3C;
+
 margin-bottom: 25px;
+
 margin-right: 110px;
+
 }
+
 .eligibility ul{
+
 	margin-top: 60px;
+
 	margin-bottom: 70px;
+
 }
+
 .eligibility button{
+
 	display: block;
+
 	margin-left: auto;
+
 	margin-right: auto;
+
 }
+
 .winners{
+
 	background: linear-gradient(180deg, #3B2F58 0%, #0F0C16 100%);
+
 	padding-top: 55px;
+
 }
+
 .winners h4{
+
 	font-family: 'Cormorant Garamond', serif;
+
 font-size: 35px;
+
 font-style: normal;
+
 font-weight: 400;
+
 line-height: 39px;
+
 letter-spacing: 0.20000000298023224px;
+
 text-align: center;
+
 padding: 19px 0px;
+
 color: #CBA051;
+
 }
+
 .winners hr{
+
 	border: 0.5px solid #CBA051;
+
 	width: 35%;
+
 	display: block;
+
 	margin-left: auto;
+
 	margin-right: auto;
+
 }
+
 .footer-line{
+
 	border: 0.5px solid #FFFFFF !important;
+
 	width: 100% !important;
+
 }
+
 .footer{
+
 	padding-top: 47px;
+
 	padding-bottom: 37px;
+
 }
+
 .footer .left ul li img{
+
 	float: left;
+
 	margin: 0 0 10px 0;
+
     padding: 5px;
+
     padding-right: 16px;
+
 }
+
 .footer .left ul {
+
     list-style-type: none;
+
     padding: 0;
+
     margin: 0;
+
 }
+
 .footer .left ul li {
+
     line-height: 60px;
+
     width: 100%;
+
 }   
+
 .footer h5{
+
 	font-family: 'Source Sans Pro', sans-serif;
+
 font-size: 12px;
+
 font-style: normal;
+
 font-weight: 400;
+
 line-height: 16px;
+
 letter-spacing: 0.20000000298023224px;
+
 text-align: left;
+
 color: #FFFFFF;
+
 }
+
 .footer ul li{
+
 	display: inline-block;
+
 	text-decoration: none;
+
 }
+
 .social-link li{
+
 	float: right;
+
 	padding-left: 18px;
+
 }
+
 .winner-person{
+
 	margin-bottom: 100px;
+
 }
+
 .social-link ul{
+
 	margin-top: 10px;
+
 }
+
 .winner-hr{
+
 	margin-bottom: 80px;
+
 }
+
 .winners h3{
+
 	font-family: 'Cormorant Garamond', serif;
+
 font-size: 24px;
+
 font-style: normal;
+
 font-weight: 300;
+
 line-height: 29px;
+
 letter-spacing: 0em;
+
 text-align: center;
+
 color: #FFFFFF;
+
 margin-top: 44px;
+
 margin-bottom: 22px;
+
 }
+
 a, a:hover, a:active, a:visited, a:focus{
+
 	color: #FFFFFF;
+
 }
+
 .text-animate{
+
 		visibility: hidden;
+
 		
+
 }
+
 .text-animate-1{
+
 		visibility: hidden;
+
 		
+
 }
+
 .timer ul li span {
+
   display: block;
+
   font-size: 4.5rem;
+
 }
+
+
 
 .emoji {
+
   display: none;
+
   padding: 1rem;
+
 }
 
+
+
 .emoji span {
+
   font-size: 4rem;
+
   padding: 0 .5rem;
-}
-.winner-1{
-    width: 99%;
+
 }
